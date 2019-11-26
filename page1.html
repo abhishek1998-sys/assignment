@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>  <title>Movies List</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+   <script type = "text/javascript">
+         $(document).ready(function() {
+            $("#div1").click(function(event){
+               $('#heading').load('desc/gabar.html');
+            });
+         });
+       
+       $(document).ready(function() {
+            $("#div2").click(function(event){
+               $('#heading1').load('desc/dil.html');
+            });
+         });
+       
+       $(document).ready(function() {
+            $("#div3").click(function(event){
+               $('#heading2').load('desc/commando2.html');
+            });
+         });
+       
+       $(document).ready(function() {
+            $("#div4").click(function(event){
+               $('#heading3').load('desc/fever.html');
+            });
+         });
+      </script>
+
+</head>
+<body>
+
+<ul>
+  <li><a href="C:\Users\Abhishek@A\Desktop\Credence\page1.html">Bollywood</a></li>
+</ul>
+    
+<br>
+    <h2 class="titl">Bollywood Movies</h2>
+    <br>
+<div class="main">
+        <div id="row">
+            <div class="col-sm-3" id="div1">
+<img src="images/image.jpg" alt="Movie" height="400px" width="300px"> <br>
+<button class="button"><h2 id="heading">Gabbar Is Back</h2> </button> 
+                </div>
+             <div class="col-sm-3" id="div2">
+<img src="images/images1.jpg" alt="Movie" height="400px" width="300px"> <br>
+<button class="button"><h2 id="heading1">Dil Toh Abhi</h2> </button> 
+                </div>
+             <div class="col-sm-3" id="div3">
+<img src="images/images2.jpg" alt="Movie" height="400px" width="300px"> <br>
+<button class="button"><h2 id="heading2">Commando2</h2> </button> 
+                </div>
+             <div class="col-sm-3" id="div4">
+<img src="images/download.jpg" alt="Movie" height="400px" width="300px"> <br>
+<button class="button"><h2 id="heading3">Fever</h2> </button> 
+                </div>
+    </div>  
+   
+</div>
+    
+</body>
+</html>

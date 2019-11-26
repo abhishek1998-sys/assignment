@@ -1,0 +1,38 @@
+ul{list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color:black;
+}
+li{
+float:left;
+}
+li a{
+display:block;
+color:white;
+padding: 14px 16px;
+text-decoration:none;
+text-align:center;
+}
+li a:hover{
+background-color:#555;
+color:white;
+}
+    .titl{
+        color: darkgoldenrod;
+        text-align: center;
+    }
+
+.button {
+  background-color: #fff; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  
+    color: black;
+}
